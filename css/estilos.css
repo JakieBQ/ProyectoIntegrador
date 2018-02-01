@@ -1,15 +1,18 @@
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
+    background-color: #631212;
+    border-color: #631212;
+    opacity: .9;
 }
 
 .row.content{
     height: 450px
 }
-    
+
 .sidenav{
     padding-top: 20px;
-    background-color: #f1f1f1;
+    background-color: #d1d1d1;
     height: 100%;
     opacity: .9;
 }
@@ -127,20 +130,15 @@ footer{
 @media screen and (max-width: 1366px){
     .hero {width: 1366px;}
     .hero h1 {font-size: 6em;}
-    h3 {font-size: 38px;}
-    .fade-carousel,
-    .fade-carousel .slides .slide-1, 
-    .fade-carousel .slides .slide-2,
-    .fade-carousel .slides .slide-3,
-    .fade-carousel .carousel-inner .item {
-        height: 30vh;} 
+    h3 {font-size: 38px;} 
 }
 
 @media screen and (min-width: 980px){
     .hero { width: 980px; }
     .hero h1 {font-size: 4em;}
-    h3 {font-size: 38px;}  
+    h3 {font-size: 38px;} 
 }
+
 @media screen and (max-width: 768px) {
     .sidenav {
     height: auto;
@@ -149,7 +147,13 @@ footer{
     .row.content {height:auto;}
     .hero { width: 768px; }
     .hero h1 {font-size: 4em } 
-    h3 { font-size: 20px; }   
+    h3 { font-size: 20px; }
+    .fade-carousel,
+    .fade-carousel .slides .slide-1, 
+    .fade-carousel .slides .slide-2,
+    .fade-carousel .slides .slide-3,
+    .fade-carousel .carousel-inner .item {
+        height: 30vh;}  
 }
 
 @media screen and (max-width: 640px){
