@@ -6,28 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css">
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-  <!-- Overlay -->
-  <div class="overlay"></div>
 
-  <!-- Indicators -->
+<!--SLIDER-->
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <div class="overlay"></div>
   <ol class="carousel-indicators">
     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#bs-carousel" data-slide-to="1"></li>
     <li data-target="#bs-carousel" data-slide-to="2"></li>
   </ol>
-  
-  <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item slides active">
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1>CEFOANEE</h1>        
+            <h1>CeFoCaNEE</h1>        
             <h3>Centro de Formación y Atención a Necesidades Educativas Especiales</h3>
         </hgroup>
       </div>
@@ -51,6 +49,9 @@
       </div>
     </div>
   </div>  
+</div>
+
+<!--BARRA MENU-->
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -63,9 +64,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class=""><a href="#">Historia</a></li>
+        <li class=""><a href="">Historia</a></li>
         <li><a href="#">Misión y Valores</a></li>
-        <li><a href="#">Galeria</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
         <li><a href="#">Contacto</a></li>
         <li><a href="#">Ayuda</a></li>
       </ul>
@@ -74,6 +75,8 @@
     </div>
   </div>
 </nav> 
+
+<!--INFORMACIÓN-->
 <div class="container-fluid text-center"> 
   <div class="row content">
     <div class="col-sm-2 sidenav"></div>
@@ -83,20 +86,21 @@
       <hr>
       <h3>Más información</h3>
       <p>texto texto y mas texto</p>
+      <hr>
     </div>
     <div class="col-sm-2 sidenav">
-      <div class="well">
+      <!--<div class="well">
         <p>Anuncio mamalon</p>
       </div>
       <div class="well">
         <p>Otro porque quiero :V</p>
-      </div>
+      </div>-->
     </div>
   </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <p><img src=""></p>
+<footer class="container-fluid text-left">
+  <p><img src="./multimedia/piepagina.png" width="170" height="60"></p>
 </footer>
 
 </body>
